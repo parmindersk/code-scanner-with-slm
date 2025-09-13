@@ -1,4 +1,4 @@
-# SML Scanner Demo
+# Code Scanner with SLM Demo
 
 ## Contents
 
