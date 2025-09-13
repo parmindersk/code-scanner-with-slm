@@ -1,0 +1,9 @@
+{
+  "name": "kleurx",
+  "version": "0.2.0",
+  "description": "Demo typosquat-style color lib (runtime side-effects)",
+  "main": "index.js",
+  "type": "commonjs",
+  "author": "demo",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+rules:
+  - id: org.no-plain-http
+    message: "Plain HTTP detected. Use HTTPS instead."
+    severity: WARNING
+    languages: [javascript, typescript]
+    pattern-either:
+      - pattern: http.get("http://...", ...)
+      - pattern: http.request("http://...", ...)
+      - pattern: new URL("http://...", ...)
+    metavariable-regex:
+      URL: '^[''"]http://'
